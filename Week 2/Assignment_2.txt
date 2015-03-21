@@ -1,0 +1,6 @@
+WorkHours = raw_input("Please enter your Hours of work: ")
+print WorkHours
+HourlyWage = raw_input("Please enter your hourly wage: ")
+print HourlyWage
+GrossPay = int(WorkHours) * float(HourlyWage)
+print GrossPay
